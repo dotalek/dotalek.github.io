@@ -41,8 +41,6 @@ header::-webkit-scrollbar-thumb,
 	background-color: #726385;
 	outline: 1px solid #726385;
 	border-image: none;
-	/*border: -15px solid transparent;*/
-	/*border-image: url('assets/Border.png') 15 stretch;*/
 }
 
 ::selection {
@@ -52,7 +50,7 @@ header::-webkit-scrollbar-thumb,
 
 body {
 	background-color: #3f3f74;
-	cursor: url('assets/cursor.png'), auto;
+	cursor: url('assets/Cursor.png'), auto;
 	margin: 0;
 	min-height: 100%;
 	max-height: 100%;
@@ -73,9 +71,8 @@ header {
 	font-family: FutilePro;
 	font-size: 3rem;
 	border-bottom: 15px solid transparent;
-	border-image: url('assets/Border.png') 15 stretch;
+	border-image: url('assets/border.png') 15 stretch;
 	padding: 0.5rem;
-	/*padding-bottom: 1.5rem;*/
 	width: 100%;
 	min-height: 5rem;
 	line-height: 100%;
@@ -88,7 +85,7 @@ p { margin: 0; }
 
 a {
 	color: #C038FF;
-	cursor: url('assets/link.png') auto;
+	cursor: url('assets/Link.png') auto;
 }
 
 footer {
@@ -97,7 +94,7 @@ footer {
 	font-size: 1.5rem;
 	bottom: 0;
 	border-top: 18px solid transparent;
-	border-image: url('assets/Border.png') 18 stretch;
+	border-image: url('assets/border.png') 18 stretch;
 	padding: 0.5rem;
 	width: 100%;
 	background-color: #222034;
@@ -119,7 +116,6 @@ footer {
 }
 .content > div.row {
 	box-sizing: border-box;
-	/*border: 1rem solid transparent;*/
 	display: flex;
 	align-content: center;
 	justify-content: space-around;
@@ -188,7 +184,7 @@ footer {
 	background-clip: padding-box;
 	box-sizing: border-box;
 	border: 15px solid transparent;
-	border-image: url('assets/Border.png') 15 stretch;
+	border-image: url('assets/border.png') 15 stretch;
 	overflow-x: auto;
 }
 
