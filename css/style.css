@@ -85,7 +85,7 @@ p { margin: 0; }
 
 a {
 	color: #C038FF;
-	cursor: url('assets/Link.png') auto;
+	cursor: url('assets/Link.png'), auto;
 }
 
 footer {
@@ -285,6 +285,13 @@ footer {
 
 .b-solid { border-style: solid !important; }
 .b-dashed { border-style: dashed !important; }
+
+.pulse { animation: pulse 0.5s forwards infinite alternate; }
+
+@keyframes pulse {
+	from { opacity: 100%; }
+	to { opacity: 0%; };
+}
 
 @media only screen and (max-width: 960px) {
 	.m-w-full {
